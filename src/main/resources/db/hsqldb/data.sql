@@ -1,3 +1,9 @@
+INSERT INTO product_type(id,name) VALUES (1, 'Accessories');
+INSERT INTO  product_type(id,name) VALUES (2,'Food');
+
+INSERT INTO product(id,name,price, product_type) VALUES (1, 'Wonderful dog collar', 17.25, 1);
+INSERT INTO  product(id,name,price, product_type) VALUES (2,'Super Kitty Cookies', 50.0, 2);
+
 -- One admin user, named admin1 with passwor 4dm1n and authority admin
 INSERT INTO users(username,password,enabled) VALUES ('admin1','4dm1n',TRUE);
 INSERT INTO authorities(id,username,authority) VALUES (1,'admin1','admin');
